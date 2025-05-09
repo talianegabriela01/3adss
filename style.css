@@ -1,1 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Coral+Pixels&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Tuffy:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+  
+*{
+    margin: 0;
+}
+
+body{    
+     background-color: rgb(145, 206, 219);
+}
+h1{
+    color: aliceblue;
+        font-family: "Tuffy", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+
+ul{
+    list-style-type: none;
+    background-color: rgb(16, 144, 218);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 14px 16px;
+}
